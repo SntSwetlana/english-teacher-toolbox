@@ -1,0 +1,6 @@
+{
+  "port" : 5000,
+  "jwtSecret": "SntSwetlana English Teacher Tools",
+  "mongoUri": "mongodb+srv://SntSwetlana:sweta0412@cluster0.jjvvrox.mongodb.net/?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:5000"
+}

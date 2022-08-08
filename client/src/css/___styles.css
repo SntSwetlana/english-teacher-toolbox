@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+body{
+  font-family: 'Montserrat' ,sans-serif;
+  background-color: #E5E5E5;
+  font-weight: 500;
+  color: #fff;
+}
+.header{
+  width: 1920px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px 0px 30px;
+  /* dark blue */
+  background: #00093C;
+}
+
+.header__logo{
+  padding-top: 10px;
+  position: relative;
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+
+.form{
+  position: relative;
+  display: flex;
+}
+
+.header__list{
+  position: relative;
+  display: inline-flex;
+  list-style-type: none;
+  gap: 40px;
+  font-size: 20px;
+  padding-left: 0;
+  margin-top: 36px;
+}
+.header__link{
+  text-decoration: none;
+  transition: .7s;
+  color: inherit;
+  background-color: transparent;
+  opacity: .75;
+  cursor: pointer;
+}
+
+.header__link_img{
+  color: #fff;
+  text-decoration: none;
+  text-align: left;
+  background-image: url("../img/login.svg");
+  background-repeat: no-repeat;
+  padding-left: 48px;
+}
+
+
+.header__link:after {
+  display: block;
+  content: "";
+  height: 12px;
+  border-bottom: 7px solid;
+  border-image: linear-gradient(90deg,#F7941D 0%, #27AAE1 100%) 47% 0;
+  transform: scaleX(0);
+  transition:transform .25s ease-in-out;
+  -moz-transition:transform .25s ease-in-out;
+  -o-transition:transform .25s ease-in-out;
+  -ms-transition:transform .25s ease-in-out;
+  -webkit-transition:transform .25s ease-in-out;
+ }
+
+.header__link:hover:after
+{
+  transform:scaleX(1)
+}
+
+
+.header__buttons{
+  display: none;
+}
+
+.form{
+  position: relative;
+}
+
+.form__button{
+  display: block;
+  width: 36px;
+  height: 36px;
+  background-image: url("../img/search.svg");
+  color: white;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  position: absolute;
+  border: none;
+  top: calc(50% - 18px);
+  left: 12px;
+}
+.form__input{
+  width: 350px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 10px;
+  padding: 0px 64px;
+  font-size: 20px;
+  align-items: top;
+}
+.form__input:placeholder{
+  color: rgba(255, 255, 255, 0.5);
+}
+.form__input:focus{
+  outline: none;
+}
+
+
+
