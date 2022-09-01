@@ -7,7 +7,8 @@ import {useAuth} from "./hooks/auth.hook";
 import {Authcontext} from "./context/Authcontext";
 import {Loader} from "./components/Loader";
 import {Navbar} from "./components/Navbar";
-import './css/normalize.min.css'
+//import './css/normalize.min.css'
+import styled from "styled-components";
 
 function App() {
     const {token, login, logout, userId, ready} = useAuth()

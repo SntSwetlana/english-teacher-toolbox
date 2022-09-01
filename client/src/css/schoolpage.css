@@ -1,0 +1,10 @@
+body{
+  color: black;
+}
+.section__Unit{
+  display: block;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+}

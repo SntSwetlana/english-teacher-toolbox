@@ -58,10 +58,15 @@ body{
   padding-left: 0;
   margin-top: 36px;
 }
+.header__item{
+  list-style-type: none;
+  text-decoration: none;
+  color: inherit;
+}
 .header__link{
   text-decoration: none;
   transition: .7s;
-  color: inherit;
+  color: #fff;
   background-color: transparent;
   opacity: .75;
   cursor: pointer;
@@ -78,8 +83,8 @@ body{
 
 
 .header__link:after {
-  display: block;
   content: "";
+  display: block;
   height: 12px;
   border-bottom: 7px solid;
   border-image: linear-gradient(90deg,#F7941D 0%, #27AAE1 100%) 47% 0;

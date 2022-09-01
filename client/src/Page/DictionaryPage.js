@@ -32,9 +32,11 @@ export const DictionaryPage = () => {
         return <Loader />
     }
     return(
+        <div className='section__Unit'>
         <div className='container'>
             {    console.log('quizlet here!!!')}
             <QuizletList quizlets = {quizlets}/>
+        </div>
         </div>
     )
 }

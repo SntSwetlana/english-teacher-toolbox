@@ -2,7 +2,7 @@ import React from "react";
 
 export const HomePage = () => {
     return(
-        <div>
+        <div className='section__Unit'>
             <h1>HomePage</h1>
         </div>
     )
